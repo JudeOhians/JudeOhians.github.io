@@ -55,3 +55,62 @@ footer {
   margin-top: 20px;
   color: #999;
 }
+
+/* Mobile-first styles */
+.container {
+  padding: 10px; /* Adjust spacing for smaller screens */
+}
+
+/* Tablet styles */
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 20px; /* Increase spacing for tablets */
+  }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 40px; /* Further increase spacing for desktops */
+  }
+}
+
+/* Typography */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Color Schemes */
+body {
+  background-color: #3e56a5;
+  color: #333;
+}
+
+nav a {
+  color: #555;
+}
+
+/* Spacing */
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+/* Button hover effect */
+nav a:hover {
+  color: #cc0909;
+  transition: color 0.3s ease;
+}
+
+.social-icons a img {
+  max-width: 30px; /* Adjust the size as needed */
+  margin: 0 5px; /* Add spacing between icons */
+}
+
+
