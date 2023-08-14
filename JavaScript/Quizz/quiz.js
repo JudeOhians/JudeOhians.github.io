@@ -1,0 +1,12 @@
+class Quiz {
+    constructor(questions) {
+      this.questions = questions;
+      this.currentQuestionIndex = 0;
+      this.score = 0;
+    }
+  
+    getCurrentQuestion() {
+      return this.questions[this.currentQuestionIndex];
+    }
+  }
+  
